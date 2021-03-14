@@ -1,0 +1,8 @@
+actors: [(0, 'Vehicle: 0'), (1, 'Vehicle: 1'), (2, 'Vehicle: 2')]
+scenes: 0: Duration Range: (0.00, 0.00) Relations: ['0behind1', '0on2,3_10.00_63.35', '0overtakes1', '1on2,3_10.00_63.35', '2on2,4_10.00_63.29']
+	1: Duration Range: (0.00, 0.00) Relations: ['0on2,2_10.00_116.80', '0overtakes1', '1on2,3_63.35_116.70', '2on2,3_10.00_116.70']
+	2: Duration Range: (0.00, 0.00) Relations: ['0on0,3_10.00_87.28', '0overtakes1', '1behind2', '1on0,4_10.00_48.64', '2on0,4_10.00_48.64']
+	3: Duration Range: (0.00, 0.00) Relations: ['0on0,3_10.00_87.28', '0overtakes1', '1behind0', '1on0,3_10.00_87.28', '2on0,4_10.00_48.64']
+	4: Duration Range: (0.00, 0.00) Relations: ['0behind2', '0on0,4_48.64_87.28', '0overtakes1', '1behind0', '1behind2', '1on0,4_48.64_87.28', '2on0,4_48.64_87.28']
+lane_section_network: <scenario_generation.common.lanes.LaneSectionNetwork object at 0x7f5aae68cd90>
+graph: {}

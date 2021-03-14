@@ -1,0 +1,15 @@
+digraph  {
+0 [_0behind1=True, _0overtakes1=0, _1behind0=False, _goal=0, _run_1=0, _v0=3, _v1=3, label="_1behind0: False, _0behind1: True, _v0: 3, _0overtakes1: 0, _v1: 3, _goal: 0, _run_1: 0"];
+1 [_0behind1=False, _0overtakes1=1, _1behind0=False, _goal=0, _run_1=1, _v0=3, _v1=4, label="_1behind0: False, _0behind1: False, _v0: 3, _0overtakes1: 1, _v1: 4, _goal: 0, _run_1: 1"];
+2 [_0behind1=False, _0overtakes1=2, _1behind0=True, _goal=0, _run_1=2, _v0=3, _v1=3, label="_1behind0: True, _0behind1: False, _v0: 3, _0overtakes1: 2, _v1: 3, _goal: 0, _run_1: 2"];
+3 [_0behind1=False, _0overtakes1=3, _1behind0=False, _goal=0, _run_1=7, _v0=0, _v1=4, label="_1behind0: False, _0behind1: False, _v0: 0, _0overtakes1: 3, _v1: 4, _goal: 0, _run_1: 7"];
+4 [_0behind1=False, _0overtakes1=3, _1behind0=False, _goal=0, _run_1=7, _v0=1, _v1=2, label="_1behind0: False, _0behind1: False, _v0: 1, _0overtakes1: 3, _v1: 2, _goal: 0, _run_1: 7"];
+5 [_0behind1=False, _0overtakes1=3, _1behind0=True, _goal=0, _run_1=7, _v0=1, _v1=1, label="_1behind0: True, _0behind1: False, _v0: 1, _0overtakes1: 3, _v1: 1, _goal: 0, _run_1: 7"];
+0 -> 1;
+1 -> 2;
+2 -> 3;
+3 -> 4;
+4 -> 5;
+5 -> 5;
+node [label="shape: box", shape=box];
+}

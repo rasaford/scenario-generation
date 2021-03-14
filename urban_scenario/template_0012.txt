@@ -1,0 +1,10 @@
+actors: [(0, 'Vehicle: 0'), (1, 'Vehicle: 1'), (2, 'Vehicle: 2'), (3, 'Vehicle: 3')]
+scenes: 0: Duration Range: (0.00, 0.00) Relations: ['0behind1', '0on6,0_10.00_35.08', '1on6,0_10.00_35.08', '2behind3', '2on5,0_10.00_77.40', '3on5,0_10.00_77.40']
+	1: Duration Range: (0.00, 0.00) Relations: ['0on6,0_10.00_35.08', '1oncritical_19,0_10.00_27.56_17,0_19,0', '2on5,0_10.00_77.40', '3on17,0_10.00_28.62']
+	2: Duration Range: (0.00, 0.00) Relations: ['0oncritical_19,0_10.00_27.56_17,0_19,0', '1on19,0_27.56_42.62', '2behind3', '2on17,0_10.00_28.62', '3on17,0_10.00_28.62']
+	3: Duration Range: (0.00, 0.00) Relations: ['0on19,0_27.56_42.62', '1on9,0_10.00_31.00', '2on17,0_10.00_28.62', '3oncritical_17,0_28.62_45.80_17,0_19,0']
+	4: Duration Range: (0.00, 0.00) Relations: ['0on9,0_10.00_31.00', '1on9,0_31.00_80.00', '2oncritical_17,0_28.62_45.80_17,0_19,0', '3on20,0_10.00_35.07']
+	5: Duration Range: (0.00, 0.00) Relations: ['0on9,0_10.00_31.00', '1on9,0_31.00_80.00', '2on20,0_10.00_35.07', '3on1,0_10.00_36.57']
+	6: Duration Range: (0.00, 0.00) Relations: ['0behind1', '0on9,0_31.00_80.00', '1on9,0_31.00_80.00', '2behind3', '2on1,0_10.00_36.57', '3on1,0_10.00_36.57']
+lane_section_network: <scenario_generation.common.lanes.LaneSectionNetwork object at 0x7f7a4d69aaf0>
+graph: {}
